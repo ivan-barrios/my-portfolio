@@ -1,6 +1,5 @@
 .sideMenu {
     display: none;
-    background-color: antiquewhite;
     width: 100vw;
     position: absolute;
     right: -100vw;
@@ -15,12 +14,23 @@
 }
 
 .sideMenu > li {
-    padding: 1.5rem;
+    width: 100%;
 }
 .sideMenu > li > a {
-    background-color: brown;
+    color: black;
+    text-decoration: none;
+    border-bottom:1px solid #eee;
+    display: block;
     width: 100%;
-    padding: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align:center;
+    font-weight: bold;
+
+    transition: color .3s;
+}
+.sideMenu > li > a:hover {
+    color: #facf0f;
 }
 
 @media (max-width: 800px) {

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./styles/navbar.css";
 
 const Navbar = ({ setShowMenu, showMenu }) => {
@@ -12,7 +11,11 @@ const Navbar = ({ setShowMenu, showMenu }) => {
   return (
     <nav>
       <div className="me">
-        <img className="my-img" src={require("../images/me.jpeg")} />
+        <img
+          className="my-img"
+          src={require("../images/me.jpeg")}
+          alt="Ivan Barrios"
+        />
         <h1>Ivan Barrios</h1>
       </div>
       <div className="header-main">
