@@ -1,17 +1,22 @@
 nav {
     background-color: #FFF;
     color: black;
-    position: sticky;
+    position: fixed;
+    width: 100vw;
+    height: 70px;
     display: flex;
     justify-content: space-between;
-    padding: 0 3rem 0 3rem;
 }
 
 .me {
+    margin-left: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
+}
+.me > h1 {
+    font-size: 2rem;
 }
 .my-img {
     width: 3rem;
@@ -20,13 +25,14 @@ nav {
 
 .header-main {
     display: flex;
+    margin-right: 2rem;
 }
 
 .header-links {
     display: flex;
     align-items: center;
     margin: 0;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .header-links > li {
@@ -41,6 +47,7 @@ nav {
     color: black;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.4rem;
     transition: color .3s ease;
 }
 .header-links > li > a:hover {
@@ -53,7 +60,16 @@ ion-icon {
     cursor: pointer;
 }
 
-@media (max-width: 800px) {
+@media (max-width:900px) {
+    .header-links > li > a {
+        font-size: 1rem;
+    }
+    .me > h1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
     .header-links {
         display: none;
     }

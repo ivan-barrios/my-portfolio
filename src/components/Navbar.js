@@ -26,11 +26,19 @@ const Navbar = ({ setShowMenu, showMenu }) => {
             </li>
           ))}
         </ul>
-        <ion-icon
-          size="large"
-          name="menu-outline"
-          onClick={() => setShowMenu(!showMenu)}
-        ></ion-icon>
+        {showMenu ? (
+          <ion-icon
+            size="large"
+            name="close-outline"
+            onClick={() => setShowMenu(!showMenu)}
+          ></ion-icon>
+        ) : (
+          <ion-icon
+            size="large"
+            name="menu-outline"
+            onClick={() => setShowMenu(!showMenu)}
+          ></ion-icon>
+        )}
       </div>
     </nav>
   );

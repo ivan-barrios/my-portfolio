@@ -2,7 +2,7 @@ import "./styles/sidebar.css";
 
 const Sidebar = ({ showMenu }) => {
   return (
-    <ul className={showMenu ? "sideMenu" : "sideMenu clicked"}>
+    <ul className={showMenu ? "sideMenu clicked" : "sideMenu"}>
       <li>
         <a href="#home">Home</a>
       </li>

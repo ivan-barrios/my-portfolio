@@ -1,7 +1,9 @@
 .sideMenu {
     display: none;
+    background-color: #FFF;
     width: 100vw;
     position: absolute;
+    top : 70px;
     right: -100vw;
     margin: 0;
     transition: transform .4s ease;
@@ -33,7 +35,7 @@
     color: #facf0f;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .sideMenu {
         display: flex;
     }

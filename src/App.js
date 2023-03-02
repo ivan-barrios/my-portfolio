@@ -5,13 +5,13 @@ import Sidebar from "./components/Sidebar";
 import "./App.css";
 
 function App() {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <div className="App">
       <Navbar setShowMenu={setShowMenu} showMenu={showMenu} />
       <Sidebar showMenu={showMenu} />
-      {/* <Home /> */}
+      <Home />
     </div>
   );
 }
