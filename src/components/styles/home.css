@@ -19,7 +19,7 @@
 }
 
 .home {
-    background-color: aliceblue;
+    background: url("/src/images/homebackground.jpg") repeat center ;
     width: 100vw;
     height: 100vh;
     display: flex;
