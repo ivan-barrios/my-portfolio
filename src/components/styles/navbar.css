@@ -54,8 +54,9 @@ nav {
     color: #facf0f;
 }
 
-ion-icon {
+.nav-icon {
     display: none;
+    font-size: 2rem;
     align-self: center;
     cursor: pointer;
 }
@@ -73,7 +74,7 @@ ion-icon {
     .header-links {
         display: none;
     }
-    ion-icon {
+    .nav-icon {
         display: block;
     }
 

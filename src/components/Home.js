@@ -3,12 +3,33 @@ import "./styles/home.css";
 const Home = () => {
   return (
     <div className="home">
+      <div className="social">
+        <div>
+          <a
+            href="https://www.linkedin.com/in/ivan-barrios-030b7721a/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://github.com/ivan-barrios/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
       <h1>HEY, I'M IVAN BARRIOS</h1>
       <p>
-        Text text texttext texttext texttext texttext texttext texttext texttext
+        A Frontend focused Web Developer building the Frontend of Websites and
         <br />
-        texttext texttext texttext texttext text
+        Web Applications that leads to the success of the overall product
       </p>
+      <h1>BUTTON</h1>
     </div>
   );
 };

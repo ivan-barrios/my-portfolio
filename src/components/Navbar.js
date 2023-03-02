@@ -16,28 +16,30 @@ const Navbar = ({ setShowMenu, showMenu }) => {
           src={require("../images/me.jpeg")}
           alt="Ivan Barrios"
         />
-        <h1>Ivan Barrios</h1>
+        <h1>IVAN BARRIOS</h1>
       </div>
       <div className="header-main">
         <ul className="header-links">
           {links.map((link) => (
-            <li>
+            <li key={link.name}>
               <a href={link.name}>{link.name}</a>
             </li>
           ))}
         </ul>
         {showMenu ? (
-          <ion-icon
-            size="large"
-            name="close-outline"
-            onClick={() => setShowMenu(!showMenu)}
-          ></ion-icon>
+          <div className="nav-icon">
+            <i
+              className="fa-solid fa-xmark"
+              onClick={() => setShowMenu(!showMenu)}
+            ></i>
+          </div>
         ) : (
-          <ion-icon
-            size="large"
-            name="menu-outline"
-            onClick={() => setShowMenu(!showMenu)}
-          ></ion-icon>
+          <div className="nav-icon">
+            <i
+              className="fa-solid fa-bars"
+              onClick={() => setShowMenu(!showMenu)}
+            ></i>
+          </div>
         )}
       </div>
     </nav>
