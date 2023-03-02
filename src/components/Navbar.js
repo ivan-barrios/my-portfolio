@@ -16,7 +16,7 @@ const Navbar = ({ setShowMenu, showMenu }) => {
           src={require("../images/me.jpeg")}
           alt="Ivan Barrios"
         />
-        <h1>IVAN BARRIOS</h1>
+        <h1>Ivan Barrios</h1>
       </div>
       <div className="header-main">
         <ul className="header-links">

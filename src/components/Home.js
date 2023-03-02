@@ -4,24 +4,21 @@ const Home = () => {
   return (
     <div className="home">
       <div className="social">
-        <div>
-          <a
-            href="https://www.linkedin.com/in/ivan-barrios-030b7721a/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa-brands fa-linkedin"></i>
-          </a>
-        </div>
-        <div>
-          <a
-            href="https://github.com/ivan-barrios/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa-brands fa-github"></i>
-          </a>
-        </div>
+        <a
+          href="https://www.linkedin.com/in/ivan-barrios-030b7721a/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a
+          href="https://github.com/ivan-barrios/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fa-brands fa-github"></i>
+        </a>
       </div>
       <h1>HEY, I'M IVAN BARRIOS</h1>
       <p>
