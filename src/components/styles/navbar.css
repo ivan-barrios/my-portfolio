@@ -1,0 +1,59 @@
+nav {
+    background-color: rgba(0, 0, 0, .75);
+    color: white;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.my-img {
+    width: 3rem;
+    border-radius: 50px;
+}
+
+.header-main {
+    display: flex;
+}
+
+.header-links {
+    display: flex;
+    margin: 0;
+}
+
+.header-links > li {
+    display: flex;
+    align-items: center;
+}
+
+.header-links > li > a {
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    color: white;
+    text-decoration: none;
+    transition: text-shadow .2s ease-in-out;
+}
+.header-links > li > a:hover {
+    text-shadow: -2px -2px 5px whitesmoke;
+}
+
+ion-icon {
+    display: none;
+    align-self: center;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .header-links {
+        display: none;
+    }
+    ion-icon {
+        display: block;
+    }
+
+}
