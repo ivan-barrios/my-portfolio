@@ -26,8 +26,12 @@ const Home = () => {
         <br />
         Web Applications that leads to the success of the overall product
       </p>
-      <div>
-        <a href="#">About me</a>
+      <div className="main-link">
+        <a href="#about">
+          <div className="animated-circle2"></div>
+          <div className="animated-circle1"></div>
+          <i className="fa-solid fa-arrow-down"></i>
+        </a>
       </div>
     </div>
   );
