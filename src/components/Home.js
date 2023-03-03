@@ -26,7 +26,9 @@ const Home = () => {
         <br />
         Web Applications that leads to the success of the overall product
       </p>
-      <h1>BUTTON</h1>
+      <div>
+        <a href="#">About me</a>
+      </div>
     </div>
   );
 };
