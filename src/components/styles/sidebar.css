@@ -1,7 +1,8 @@
 .sideMenu {
     background-color: #FFF;
     width: 100vw;
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top : 70px;
     right: -100vw;
     margin: 0;

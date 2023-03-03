@@ -2,6 +2,7 @@ nav {
     background-color: #FFF;
     color: black;
     position: fixed;
+    z-index: 1;
     width: 100vw;
     height: 70px;
     display: flex;

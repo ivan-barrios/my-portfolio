@@ -2,7 +2,7 @@ import "./styles/home.css";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div id="Home" className="home">
       <div className="social">
         <a
           href="https://www.linkedin.com/in/ivan-barrios-030b7721a/"

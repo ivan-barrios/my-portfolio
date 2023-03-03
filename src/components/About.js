@@ -2,8 +2,11 @@ import "./styles/about.css";
 
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
+    <div id="About" className="about">
+      <div>
+        <h1>About</h1>
+        <p>Text</p>
+      </div>
     </div>
   );
 };

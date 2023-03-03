@@ -22,7 +22,7 @@ const Navbar = ({ setShowMenu, showMenu }) => {
         <ul className="header-links">
           {links.map((link) => (
             <li key={link.name}>
-              <a href={link.name}>{link.name}</a>
+              <a href={"#" + link.name}>{link.name}</a>
             </li>
           ))}
         </ul>
