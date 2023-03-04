@@ -6,7 +6,7 @@ const Sidebar = ({ showMenu, setShowMenu }) => {
   return (
     <ul className={showMenu ? "sideMenu clicked" : "sideMenu"}>
       {list.map((name) => (
-        <li>
+        <li key={name}>
           <a href={"#" + name} onClick={() => setShowMenu(!showMenu)}>
             {name}
           </a>

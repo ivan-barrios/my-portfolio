@@ -1,6 +1,27 @@
 .about {
+    padding-top: 140px ;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.about-text {
+    width: 800px;
+    background-color: aliceblue;
+    padding: 2rem;
+}
+
+.tech {
+    background-color: antiquewhite;
+    width: 600px;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .about-text {
+        width: 700px;
+    }
 }
