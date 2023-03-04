@@ -8,15 +8,34 @@
 }
 .about-text {
     width: 800px;
-    background-color: aliceblue;
+    height: fit-content;
+    background-color: #f5e18a;
     padding: 2rem;
+    margin: 0 2rem;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .tech {
-    background-color: antiquewhite;
-    width: 600px;
+    width: 800px;
+    height: fit-content;
+    margin: 0 2rem;
+    padding: 2rem;
+    background-color: #f5e18a;
+    border-radius: 10px;
+    text-align: center;
 }
 
+.skills-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-items: center;
+    gap: 1.5rem;
+}
+
+.skills-images > img {
+    width: 8rem;
+}
 
 
 
