@@ -13,6 +13,7 @@
     max-width: 600px;
     height: fit-content;
     background-color: #f5e18a;
+    box-shadow: 1px 1px 10px black;
     padding: 2rem;
     margin: 0 3rem;
     border-radius: 10px;
@@ -30,6 +31,7 @@
     margin: 0 3rem;
     padding: 2rem;
     background-color: #f5e18a;
+    box-shadow: 1px 1px 10px black;
     border-radius: 10px;
     text-align: center;
 }
