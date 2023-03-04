@@ -1,9 +1,10 @@
 import { useState } from "react";
+import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Sidebar from "./components/Sidebar";
-import "./App.css";
 import About from "./components/About";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -14,6 +15,7 @@ function App() {
       <Sidebar showMenu={showMenu} setShowMenu={setShowMenu} />
       <Home />
       <About />
+      <Portfolio />
     </div>
   );
 }
