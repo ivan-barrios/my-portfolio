@@ -29,11 +29,13 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="portfolio">
+    <div id="Portfolio" className="portfolio">
       <h1>Portfolio</h1>
       <div className="projects">
+        {" "}
+        {/*Idea: You can make a carousel*/}
         {projects.map((project) => (
-          <div className="project">
+          <div key={project.name} className="project">
             <div className="project-img-container">
               <img src={project.imgsrc} alt={project.name} />
             </div>

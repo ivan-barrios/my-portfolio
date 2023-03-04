@@ -1,7 +1,7 @@
 .about {
     background-color: #fff;
-    padding-top: 100px ;
-    height: fit-content;
+    padding-top: 80px ;
+    height: max-content;
     display: flex;
     justify-content: space-around;
     gap: 1rem;
@@ -11,7 +11,7 @@
 
 .about-text {
     max-width: 600px;
-    height: fit-content;
+    height: max-content;
     background-color: #f5e18a;
     box-shadow: 1px 1px 10px black;
     padding: 2rem;
@@ -27,7 +27,7 @@
 .tech {
     max-width: 600px;
     width: 800px;
-    height: fit-content;
+    height: max-content;
     margin: 0 3rem;
     padding: 2rem;
     background-color: #f5e18a;
@@ -73,9 +73,5 @@
     }
     .skills-images {
         grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));;
-    }
-    .about {
-        height: 80vh;
-        padding-top: 100px;
     }
 }
