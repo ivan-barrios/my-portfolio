@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.116aba72.css",
+    "main.js": "/my-portfolio/static/js/main.0b9d9817.js",
+    "static/media/HomeBackground-dark.jpg": "/my-portfolio/static/media/HomeBackground-dark.ee163908b5487ea68333.jpg",
+    "static/media/homebackground.jpg": "/my-portfolio/static/media/homebackground.3406ce106b53228256aa.jpg",
+    "static/media/NodeJS-Light.svg": "/my-portfolio/static/media/NodeJS-Light.aea93409f1111d62a1eaa3347b033dda.svg",
+    "static/media/NodeJS-Dark.svg": "/my-portfolio/static/media/NodeJS-Dark.d01eb487bc154d914fbee19be73a6ef0.svg",
+    "static/media/Git.svg": "/my-portfolio/static/media/Git.87d6e2a3383a582dd8d951daf9c95c04.svg",
+    "static/media/React-Dark.svg": "/my-portfolio/static/media/React-Dark.45e05858175d1edbb57051533007343c.svg",
+    "static/media/React-Light.svg": "/my-portfolio/static/media/React-Light.859310e341351502b4a2a19a19f7ad32.svg",
+    "static/media/TypeScript.svg": "/my-portfolio/static/media/TypeScript.5d93426aa26d9e2ac669d370a8fc46a1.svg",
+    "static/media/JavaScript.svg": "/my-portfolio/static/media/JavaScript.9a071f2801f9f92598764d48c7225305.svg",
+    "index.html": "/my-portfolio/index.html",
+    "static/media/TailwindCSS-Dark.svg": "/my-portfolio/static/media/TailwindCSS-Dark.64f865ec00b139cb9ae7b35692bd0ec7.svg",
+    "static/media/TailwindCSS-Light.svg": "/my-portfolio/static/media/TailwindCSS-Light.5d31717fbdc3bb6b5a9bdc3f5ba7f5c0.svg",
+    "static/media/CSS.svg": "/my-portfolio/static/media/CSS.5fcd7f5683afc0fc6d0186a083262016.svg",
+    "static/media/HTML.svg": "/my-portfolio/static/media/HTML.ca0db580ffd74f086f2dc2a71dacd660.svg",
+    "main.116aba72.css.map": "/my-portfolio/static/css/main.116aba72.css.map",
+    "main.0b9d9817.js.map": "/my-portfolio/static/js/main.0b9d9817.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.116aba72.css",
+    "static/js/main.0b9d9817.js"
+  ]
+}
