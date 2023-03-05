@@ -42,6 +42,7 @@ nav {
 }
 
 .header-links > li > a {
+    position: relative;
     display: flex;
     align-items: center;
     height: 100%;
@@ -50,6 +51,21 @@ nav {
     font-weight: bold;
     font-size: 1.4rem;
     transition: color .3s ease;
+}
+.header-links > li > a::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    width: 0;
+    height: 3px;
+    background-color: #facf0f;
+    transition: width 0.25s ease-out;
+}
+.header-links > li > a:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
 }
 .header-links > li > a:hover {
     color: #facf0f;
