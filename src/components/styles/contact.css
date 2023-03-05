@@ -1,0 +1,52 @@
+.contact {
+    height: 60vh;
+    padding: 0 2rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.text {
+    background-color: #f5e18a;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    padding: 2rem;
+    max-width: 500px;
+    font-size: 23px;
+    line-height: 2rem;
+}
+
+.social-media {
+    display: flex;
+    gap: 4rem;
+    font-size: 2rem;
+}
+
+.social-media > a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.social-media > a::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #facf0f;
+    transition: width 0.25s ease-out;
+}
+
+.social-media > a:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.copyright {
+    font-weight: bold;
+}

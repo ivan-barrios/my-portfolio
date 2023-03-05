@@ -30,9 +30,8 @@ const Portfolio = () => {
 
   return (
     <div id="Portfolio" className="portfolio">
-      <h1>Portfolio</h1>
+      <h1>Projects</h1>
       <div className="projects">
-        {" "}
         {/*Idea: You can make a carousel*/}
         {projects.map((project) => (
           <div key={project.name} className="project">

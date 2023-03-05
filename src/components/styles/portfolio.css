@@ -2,6 +2,11 @@
     padding-top: 70px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.portfolio > h1 {
+    text-align: center;
 }
 
 .projects {
@@ -9,12 +14,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 2rem;
-    
 }
 
 .project {
     background-color: #f5e18a;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 3px 3px 10px black;
     border-radius: 10px;
     padding: 2rem;
     display: flex;
