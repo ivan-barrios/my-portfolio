@@ -1,5 +1,4 @@
 import "./styles/navbar.css";
-import ReactSwitch from "react-switch";
 import { useContext } from "react";
 import { ThemeContext } from "../App";
 
@@ -16,13 +15,15 @@ const Navbar = ({ setShowMenu, showMenu }) => {
   return (
     <nav>
       <div className="me">
-        <div className="switch">
-          <ReactSwitch
-            onChange={themeContext.toggleTheme}
-            checked={themeContext.theme === "dark"}
-          />
+        <div className="radio-btn" onClick={themeContext.toggleTheme}>
+          <div
+            className={
+              themeContext.theme === "dark"
+                ? "radio-inner darkactive"
+                : "radio-inner"
+            }
+          ></div>
         </div>
-        <h1>Ivan Barrios</h1>
       </div>
       <div className="header-main">
         <ul className="header-links">
