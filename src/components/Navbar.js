@@ -1,6 +1,6 @@
 import "./styles/navbar.css";
 
-const Navbar = ({ setShowMenu, showMenu }) => {
+const Navbar = ({ setShowMenu, showMenu, darkTheme, setDarkTheme }) => {
   const links = [
     { name: "Home" },
     { name: "About" },
