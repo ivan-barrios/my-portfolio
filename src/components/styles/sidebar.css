@@ -11,6 +11,9 @@
     flex-direction: column;
     align-items: center;
 }
+#dark .sideMenu {
+    background-color: #252525;
+}
 .clicked {
     transform: translateX(-100vw);
 }
@@ -30,6 +33,12 @@
     font-weight: bold;
 
     transition: color .3s;
+}
+#dark .sideMenu > li > a {
+    color: white;
+}
+#dark .sideMenu > li > a:hover {
+    color: #facf0f;
 }
 .sideMenu > li > a:hover {
     color: #facf0f;

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { createContext, useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -7,28 +7,27 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
+export const ThemeContext = createContext(null);
+
 function App() {
   const [showMenu, setShowMenu] = useState(false);
-  const [darkTheme, setDarkTheme] = useState(false);
+  const [theme, setTheme] = useState("dark");
+
+  const toogleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
 
   return (
-    <div className="App">
-      <Navbar
-        setShowMenu={setShowMenu}
-        showMenu={showMenu}
-        darkTheme={darkTheme}
-        setDarkTheme={setDarkTheme}
-      />
-      <Sidebar
-        showMenu={showMenu}
-        setShowMenu={setShowMenu}
-        darkTheme={darkTheme}
-      />
-      <Home darkTheme={darkTheme} />
-      <About darkTheme={darkTheme} />
-      <Portfolio darkTheme={darkTheme} />
-      <Contact darkTheme={darkTheme} />
-    </div>
+    <ThemeContext.Provider value={{ theme, toogleTheme }}>
+      <div className="App" id={theme}>
+        <Navbar setShowMenu={setShowMenu} showMenu={showMenu} />
+        <Sidebar showMenu={showMenu} setShowMenu={setShowMenu} />
+        <Home />
+        <About />
+        <Portfolio />
+        <Contact />
+      </div>
+    </ThemeContext.Provider>
   );
 }
 

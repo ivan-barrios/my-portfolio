@@ -1,6 +1,6 @@
 import "./styles/navbar.css";
 
-const Navbar = ({ setShowMenu, showMenu, darkTheme, setDarkTheme }) => {
+const Navbar = ({ setShowMenu, showMenu }) => {
   const links = [
     { name: "Home" },
     { name: "About" },
@@ -11,11 +11,7 @@ const Navbar = ({ setShowMenu, showMenu, darkTheme, setDarkTheme }) => {
   return (
     <nav>
       <div className="me">
-        <img
-          className="my-img"
-          src={require("../images/me.jpeg")}
-          alt="Ivan Barrios"
-        />
+        <div className="themeBtn"></div>
         <h1>Ivan Barrios</h1>
       </div>
       <div className="header-main">
