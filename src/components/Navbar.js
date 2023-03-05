@@ -1,4 +1,7 @@
 import "./styles/navbar.css";
+import ReactSwitch from "react-switch";
+import { useContext } from "react";
+import { ThemeContext } from "../App";
 
 const Navbar = ({ setShowMenu, showMenu }) => {
   const links = [
@@ -8,10 +11,17 @@ const Navbar = ({ setShowMenu, showMenu }) => {
     { name: "Contact" },
   ];
 
+  const themeContext = useContext(ThemeContext);
+
   return (
     <nav>
       <div className="me">
-        <div className="themeBtn"></div>
+        <div className="switch">
+          <ReactSwitch
+            onChange={themeContext.toggleTheme}
+            checked={themeContext.theme === "dark"}
+          />
+        </div>
         <h1>Ivan Barrios</h1>
       </div>
       <div className="header-main">

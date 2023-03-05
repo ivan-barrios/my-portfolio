@@ -22,6 +22,10 @@
     border-radius: 10px;
     text-align: center;
 }
+#dark .about-text {
+    background-color: #a59d7c;
+    color: white;
+}
 .about-text > p {
     font-size: 1.4rem;
     line-height: 2.4rem;
@@ -37,6 +41,10 @@
     box-shadow: 3px 3px 10px black;
     border-radius: 10px;
     text-align: center;
+}
+#dark .tech {
+    background-color: #a59d7c;
+    color: white;
 }
 
 .skills-images {

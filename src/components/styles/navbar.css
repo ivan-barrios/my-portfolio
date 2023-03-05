@@ -24,11 +24,10 @@ nav {
     font-size: 2rem;
 }
 
-.themeBtn{
-    background-color: black;
-    border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
+.switch{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
 }
 
 .header-main {

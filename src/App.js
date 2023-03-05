@@ -13,12 +13,12 @@ function App() {
   const [showMenu, setShowMenu] = useState(false);
   const [theme, setTheme] = useState("dark");
 
-  const toogleTheme = () => {
+  const toggleTheme = () => {
     setTheme((curr) => (curr === "light" ? "dark" : "light"));
   };
 
   return (
-    <ThemeContext.Provider value={{ theme, toogleTheme }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="App" id={theme}>
         <Navbar setShowMenu={setShowMenu} showMenu={showMenu} />
         <Sidebar showMenu={showMenu} setShowMenu={setShowMenu} />
